@@ -1,0 +1,33 @@
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  span.title {
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--md-sys-color-on-primary);
+    font-family: Noto Sans;
+    span.emphasize {
+      color: var(--md-sys-color-primary);
+    }
+  }
+  span.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 50rem;
+    text-align: center;
+    color: var(--md-sys-color-surface-dim);
+    font-family: Noto Sans;
+  }
+  div.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 2rem;
+    // button.get-started {
+    //   background-color: var(--md-sys-color-primary);
+    // }
+  }
+}

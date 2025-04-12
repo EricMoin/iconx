@@ -1,0 +1,47 @@
+@import './dark-hc.css';
+@import './light-hc.css';
+@import './dark-mc.css';
+@import './light-mc.css';
+@import './dark.css';
+@import './light.css';
+
+.base {
+  background: var(--md-sys-color-on-surface);
+}
+div,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+}
+.content {
+  display: flex;
+  min-height: 100%;
+  line-height: 1.1;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dismiss {
+  visibility: hidden;
+}
+
+.content h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('@assets/ttfs/Roboto-Regular.ttf');
+}

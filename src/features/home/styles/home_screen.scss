@@ -1,0 +1,12 @@
+.home-screen {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+
+  background: radial-gradient(
+    var(--md-sys-color-primary) 0.1%,
+    var(--md-sys-color-on-surface)
+  );
+}

@@ -6,7 +6,15 @@
     "noEmit": true,
     "skipLibCheck": true,
     "useDefineForClassFields": true,
-
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@theme/*": ["src/theme/*"],
+      "@common/*": ["src/common/*"],
+      "@routes/*": ["src/routes/*"],
+      "@features/*": ["src/features/*"],
+      "@assets/*": ["assets/*"]
+    },
     /* modules */
     "module": "ESNext",
     "isolatedModules": true,

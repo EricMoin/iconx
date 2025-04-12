@@ -1,0 +1,41 @@
+.control-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  .panel-content-wrapper {
+    height: 100%;
+    width: 22rem;
+    display: flex;
+  }
+  .panel-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+    div.slider-wrapper {
+      display: flex;
+      flex-direction: column;
+      span.slider-label {
+        color: var(--md-sys-color-surface-dim);
+      }
+    }
+    div.spacer {
+      flex: 1;
+    }
+  }
+  .panel-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid var(--md-sys-color-outline);
+    height: 100%;
+  }
+}
